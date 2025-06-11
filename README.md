@@ -19,7 +19,13 @@ A Python-based document summarization system that uses RAG (Retrieval-Augmented 
 
 ## Installation
 
-1. Create and activate a virtual environment (Already Created just activate the Environment):
+1. Clone the repo
+```bash
+git clone https://github.com/qasim233/Document_Summarizer_Using_RAG.git
+cd Document_Summarizer_Using_RAG
+```
+
+2. Create and activate a virtual environment:
 ```bash
 # Windows
 python -m venv .venv
@@ -30,7 +36,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-2. Install the required packages:
+3. Install the required packages:
 ```bash
 pip install -r requirements.txt
 ```
@@ -42,7 +48,7 @@ pip install -r requirements.txt
 python Text_Summarizer.py
 ```
 
-Note: If it gives error about "No Module" then install them manually using pip after activating environment(.venv). 
+Note: If it gives error about "No Module" then install them manually using pip after activating environment(.venv). See required packages on requirements.txt. 
 
 2. Follow the interactive prompts:
    - Enter the path to your document (PDF, TXT, or MD)
@@ -104,3 +110,6 @@ Document_Summarizer/
 - The first run will download the required models, which may take some time
 - Processing time depends on document size and available computational resources
 - For best results, use documents with clear structure and formatting
+
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request.
